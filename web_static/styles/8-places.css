@@ -6,7 +6,6 @@
 }
 .places article {
 	width: 390px;
-	height: 450px;
 	padding: 20px;
 	margin: 20px;
 	border: #ff5a5f 1px solid;
@@ -19,8 +18,6 @@
 	margin-top: 0;
 }
 .places {
-	padding-left: 20px;
-	padding-right: 20px;
 	text-align: center;
 }
 .price_by_night{
@@ -53,6 +50,7 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	padding-top: 60px;
+	margin-bottom: 15px;
 
 }
 .max_guest {
@@ -64,6 +62,10 @@
 .number_bathrooms {
 	background-image: url("../images/icon_bath.png");
 }
-.user {
-	text-align: left:
+.user, .description {
+	text-align: left;
+	margin-top: 10px;
+}
+.owner {
+	font-weight: bold;
 }
